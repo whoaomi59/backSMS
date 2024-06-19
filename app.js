@@ -4,7 +4,7 @@ const mysql = require("mysql2");
 const cors = require("cors");
 
 const app = express();
-const port = 5000;
+const port = 8080;
 
 // Configuración de la conexión a MySQL
 const db = mysql.createConnection({
